@@ -5,7 +5,6 @@ def Funktion():
         ahk.key_press("F8")
 
 ahk = AHK()
-win = ahk.windows
 ahk.add_hotkey("XButton2", callback=Funktion)
 
 ahk.start_hotkeys()
